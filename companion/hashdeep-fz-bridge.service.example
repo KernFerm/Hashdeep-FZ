@@ -1,0 +1,18 @@
+[Unit]
+Description=Hashdeep FZ UART bridge
+After=local-fs.target
+
+[Service]
+Type=simple
+User=hashdeep-fz
+Group=dialout
+ExecStart=/opt/hashdeep-fz/venv/bin/python /opt/hashdeep-fz/hashdeep_fz_bridge.py --port /dev/ttyUSB0 --baud 115200
+Restart=on-failure
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/hashdeep-fz
+
+[Install]
+WantedBy=multi-user.target

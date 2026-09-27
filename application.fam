@@ -1,0 +1,14 @@
+App(
+    appid="hashdeep_fz",
+    name="Hashdeep FZ",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="hashdeep_fz_app",
+    sources=["*.c"],
+    requires=["gui", "storage", "dialogs"],
+    fap_libs=["mbedtls"],
+    stack_size=6144,
+    fap_category="Tools",
+    fap_description="Native file hashing and external genuine Hashdeep",
+    fap_author="Hashdeep contributors; Flipper port contributors",
+    fap_version="1.0.1",
+)

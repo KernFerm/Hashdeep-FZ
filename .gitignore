@@ -1,0 +1,32 @@
+# Builds and caches
+.ufbt/
+.vscode/
+build/
+build-*/
+dist/debug/
+*.o
+*.obj
+*.elf
+*.map
+*.d
+node_modules/
+**/node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.snyk/
+
+# Local specification, generated reports and manifests
+/to-do.md
+/reports/
+*.generated.hashdeep
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+*token*

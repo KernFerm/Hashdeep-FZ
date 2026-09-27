@@ -1,0 +1,7 @@
+# Notices
+
+Hashdeep FZ is based on behavioral and file-format analysis of Hashdeep by Jesse Kornblum and contributors. Most original Hashdeep code is identified upstream as a U.S. Government work in the public domain. See the pinned upstream `COPYING` file for its complete notice and component exceptions.
+
+Native digest calculations use the incremental mbedTLS library supplied by the official Flipper Zero firmware SDK. Hashdeep FZ's HASHDEEP-1.0 parser, bounded audit implementation, Flipper UI, storage integration, UART protocol, and Linux companion are original port code under GPL-2.0-or-later.
+
+No Hashdeep, Flipper Devices, Raspberry Pi, or mbedTLS trademark endorsement is implied.
