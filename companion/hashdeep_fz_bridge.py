@@ -15,7 +15,7 @@ from dataclasses import dataclass
 import serial
 
 PROTOCOL = 1
-BRIDGE_VERSION = "1.0.1"
+BRIDGE_VERSION = "1.0.4"
 ROOT = pathlib.Path("/var/lib/hashdeep-fz")
 INPUT = ROOT / "input"
 OUTPUT = ROOT / "output"

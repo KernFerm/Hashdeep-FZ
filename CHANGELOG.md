@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.4 — 2026-09-27
+
+- Refreshed application and companion version metadata.
+- Rebuilt and revalidated the target f7/API 87.1 FAP.
+
 ## 1.0.1 — 2026-09-27
 
 - Added the exact failing file or directory path to native error reports.

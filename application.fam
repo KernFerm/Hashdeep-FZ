@@ -10,5 +10,5 @@ App(
     fap_category="Tools",
     fap_description="Native file hashing and external genuine Hashdeep",
     fap_author="Hashdeep contributors; Flipper port contributors",
-    fap_version="1.0.1",
+    fap_version="1.0.4",
 )

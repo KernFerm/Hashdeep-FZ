@@ -17,7 +17,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define HD_VERSION "1.0.1"
+#define HD_VERSION "1.0.4"
 
 typedef enum { HdViewMain, HdViewSettings, HdViewInput, HdViewText, HdViewExternal } HdViewId;
 typedef enum {

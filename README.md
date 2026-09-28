@@ -1,8 +1,8 @@
 # Hashdeep FZ
 
-Hashdeep FZ hashes the actual bytes of files stored on a Flipper Zero microSD card. Version 1.0.1 provides two real operating modes: bounded native MD5, SHA-1, SHA-256, verification, recursive manifest creation and audit on the Flipper; or genuine upstream Hashdeep running on a Raspberry Pi/Linux computer while the Flipper acts as its 3.3 V UART controller and measured status display.
+Hashdeep FZ hashes the actual bytes of files stored on a Flipper Zero microSD card. Version 1.0.4 provides two real operating modes: bounded native MD5, SHA-1, SHA-256, verification, recursive manifest creation and audit on the Flipper; or genuine upstream Hashdeep running on a Raspberry Pi/Linux computer while the Flipper acts as its 3.3 V UART controller and measured status display.
 
-Current release: **v1.0.1**.
+Current release: **v1.0.4**.
 
 ## Install the FAP
 
