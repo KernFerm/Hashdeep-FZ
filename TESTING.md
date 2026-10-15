@@ -28,11 +28,11 @@ The host suite checks MD5/SHA-1/SHA-256 known-answer vectors for empty, `abc`, o
 
 ## Current build evidence
 
-- Version: 1.0.4
-- SDK: official firmware 1.4.3, target f7, API 87.1
+- Version: 1.0.5
+- SDK: official firmware 1.5.1, target f7, API 88.2
 - Command: `python -m ufbt`
 - Result: clean FAP build and APPCHK pass
-- Artifact: `dist/hashdeep_fz.fap`, 48,072 bytes, SHA-256 `2CC7DEA7E25DBD3A5992634D1C45C4F9E6AAE941F21F6C83498A45BD76D063A6`
+- Artifact: `dist/hashdeep_fz.fap`, 48,072 bytes, SHA-256 `D21167420BEA37888E7F1F1F55F747B36D40685E470CCEE0AB3629CD48FB7091`
 - Snyk Code: 0 high, 0 medium, 8 low. All eight low findings are the intentional MD5/SHA-1 forensic-compatibility implementation and known-answer tests; neither algorithm is used for password storage, both are labeled legacy, and SHA-256 is the default.
 - Raspberry Pi hardware: not claimed tested until real companion hardware is available
 

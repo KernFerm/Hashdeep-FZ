@@ -1,12 +1,12 @@
 # Hashdeep FZ
 
-Hashdeep FZ hashes the actual bytes of files stored on a Flipper Zero microSD card. Version 1.0.4 provides two real operating modes: bounded native MD5, SHA-1, SHA-256, verification, recursive manifest creation and audit on the Flipper; or genuine upstream Hashdeep running on a Raspberry Pi/Linux computer while the Flipper acts as its 3.3 V UART controller and measured status display.
+Hashdeep FZ hashes the actual bytes of files stored on a Flipper Zero microSD card. Version 1.0.5 provides two real operating modes: bounded native MD5, SHA-1, SHA-256, verification, recursive manifest creation and audit on the Flipper; or genuine upstream Hashdeep running on a Raspberry Pi/Linux computer while the Flipper acts as its 3.3 V UART controller and measured status display.
 
-Current release: **v1.0.4**.
+Current release: **v1.0.5**.
 
 ## Install the FAP
 
-The release build targets official Flipper firmware 1.4.3, target f7, API 87.1. A different firmware API may require rebuilding.
+The release build targets official Flipper firmware 1.5.1, target f7, API 88.2. A different firmware API may require rebuilding.
 
 ### Install with qFlipper
 
@@ -98,7 +98,7 @@ MD5 and SHA-1 remain useful for compatibility with old forensic manifests but ar
 
 ## Build and test
 
-Requirements: Python 3, `ufbt` 0.2.6 or newer, and official firmware/SDK 1.4.3 (API 87.1) or compatible.
+Requirements: Python 3, `ufbt` 0.2.6 or newer, and official firmware/SDK 1.5.1 (API 88.2) or compatible.
 
 ```powershell
 python -m pip install --upgrade ufbt

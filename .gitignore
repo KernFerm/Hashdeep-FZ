@@ -4,6 +4,7 @@
 build/
 build-*/
 dist/debug/
+/dist/
 *.o
 *.obj
 *.elf

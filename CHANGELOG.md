@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.5 — 2026-10-15
+
+- Rebuilt for official Flipper firmware 1.5.1.
+- Updated target f7 compatibility from API 87.1 to API 88.2.
+- Preserved manifest, report, digest, settings, and companion protocol formats.
+
 ## 1.0.4 — 2026-09-27
 
 - Refreshed application and companion version metadata.
